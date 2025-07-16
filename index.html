@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ajay Dhakad | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Ajay Dhakad</h1>
+    <p>Aspiring Web Developer | HTML, CSS, JavaScript Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+
+
+
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am Ajay Dhakad, a passionate web developer currently pursuing B.Tech from Jaypee University, Guna. I have completed my schooling from Jawahar Navodaya Vidyalaya, Guna. I enjoy turning complex problems into clean, user-friendly websites using HTML, CSS, and JavaScript.</p>
+    <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Dynamic To-Do List</h3>
+      <p>A task manager that lets you add and remove tasks dynamically.</p>
+      <a href="https://iamAjayDhakad.github.io/TASK2/" target="_blank">Live Demo</a>
+    </div>
+    <div class="project">
+      <h3>Quiz Webpage</h3>
+      <p>An interactive quiz built with JavaScript and responsive design.</p>
+      <a href="https://github.com/iamAjayDhakad/TASK3" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+ <section id="todo" class="todo">
+    <h2>To-Do List</h2>
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Enter a task" required>
+      <button type="submit">Add Task</button>
+    </form>
+    <ul id="todo-list"></ul>
+  </section>
+
+
+
+
+
+
+  
+ <section id="products" class="products">
+    <h2>Product Listing</h2>
+    <div class="filter-sort">
+      <select id="filter-category">
+        <option value="all">All Categories</option>
+        <option value="electronics">Electronics</option>
+        <option value="books">Books</option>
+        <option value="clothing">Clothing</option>
+      </select>
+      <select id="sort-price">
+        <option value="default">Sort By</option>
+        <option value="low">Price: Low to High</option>
+        <option value="high">Price: High to Low</option>
+      </select>
+    </div>
+    <div id="product-list" class="product-list"></div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>If you’d like to collaborate or have any questions, feel free to drop a message!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-links">
+      <p><i class="fas fa-envelope"></i> <a href="mailto:ajaydhakad5002@gmail.com">ajaydhakad5002@gmail.com</a></p>
+      <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ajay-dhakad-15757b363" target="_blank">Ajay Dhakad</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ajay Dhakad | Designed with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
